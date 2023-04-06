@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pirates
+comment1.params=
+comment1.target=Pirates()
+comment2.params=ch
+comment2.target=boolean\ isValidChar(char)
+comment3.params=
+comment3.target=boolean\ isValidCode()
+comment4.params=
+comment4.target=void\ check()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

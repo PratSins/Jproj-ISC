@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SortWords
+comment1.params=
+comment1.target=SortWords()
+comment2.params=
+comment2.target=void\ execute()
+comment3.params=s
+comment3.target=java.lang.String\ sort(java.lang.String)
+comment4.params=s
+comment4.target=java.lang.String\ removePuncs(java.lang.String)
+comment5.params=ch
+comment5.target=boolean\ isPunc(char)
+comment6.params=s
+comment6.target=java.lang.String\ eatExcessSpaces(java.lang.String)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

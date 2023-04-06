@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=yr
+comment0.target=int\ isleapYr(int)
+comment1.params=mn
+comment1.target=int\ daysAdd(int)
+comment2.params=mn
+comment2.target=int\ mntype(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

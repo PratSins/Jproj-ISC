@@ -1,0 +1,11 @@
+import java.util.*;
+class WrapAround
+{
+    int n; byte freq[];
+    WrapAround(){     n=0;     }
+    void accept()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number number :
+    }
+}

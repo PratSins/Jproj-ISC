@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LinkedList
+comment1.params=
+comment1.target=LinkedList()
+comment2.params=val
+comment2.target=void\ addAtBeg(int)
+comment3.params=val
+comment3.target=void\ addAtEnd(int)
+comment4.params=
+comment4.target=void\ removefromBeg()
+comment5.params=
+comment5.target=void\ removefromEnd()
+comment6.params=
+comment6.target=void\ display()
+numComments=7

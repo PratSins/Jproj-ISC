@@ -1,0 +1,84 @@
+import java.util.*;
+class Keith
+{
+    int x , y;
+    public Keith(){    x=y=0;       }
+    public void storeNum()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter limits : ");
+        x=sc.nextInt();
+        y=sc.nextInt();
+        if (x>y)
+        {
+            int t=x;
+            x=y;
+            y=t;
+        }
+    }
+    public void findKeithNums()
+    {
+        boolean flag =false;
+        for(int i=x;i<=y;i++)
+        {
+            if(isKeith(i))
+            {
+                if(!flag)
+                   {
+                       System.out.println("Smith numbers are :");
+                       flag=true;
+                    }
+                System.out.println(i);    
+            }
+        }
+        if(!flag)
+           System.out.println("Sorry .... no Smiths");
+    }
+    private int countDig(int k)
+    {
+        int c=0;
+        while(k>0)
+        {
+            c++;
+            k/=10;
+        }
+        return c;
+    }
+    private boolean isKeith(int n)
+    {
+        int n1 = n;
+        int d=countDig(n1);
+        int arr[]=new int[d];
+        int sum; 
+        for(int i=d-1; i>=0; i--)
+        {
+            arr[i]=n1 % 10;
+            n1=n1/10;
+        }   
+        sum=0;
+        while(sum<n)
+        {
+            sum = 0;
+            for(int j=0; j<d; j++)
+            {
+                sum=sum+arr[j];
+            }
+            for(int j=0; j<d-1; j++)
+            {
+                arr[j]=arr[j+1];
+            }
+            arr[d-1]=sum;
+            
+        }
+        if(sum==n)
+            return true;
+        else
+            return false;
+    }
+    public static void main(String args[])
+    {
+        Keith obj=new Keith();
+        obj.storeNum();
+        obj.findKeithNums();
+    }
+}

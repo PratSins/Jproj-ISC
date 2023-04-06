@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RockPaperScissors()
+comment1.params=
+comment1.target=void\ startGame()
+comment2.params=
+comment2.target=void\ printGameStats()
+comment2.text=\r\n\ Prints\ out\ the\ statistics\ of\ the\ game.\ Calculates\ ties\ as\ 1/2\ a\ win\ in\r\n\ percentage\ won.\r\n
+comment3.params=numberOfDashes
+comment3.target=void\ printDashes(int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

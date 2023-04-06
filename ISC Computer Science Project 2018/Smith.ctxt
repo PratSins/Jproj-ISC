@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Smith
+comment1.params=
+comment1.target=Smith()
+comment2.params=
+comment2.target=void\ storeNum()
+comment3.params=
+comment3.target=void\ findSmithNums()
+comment4.params=k
+comment4.target=int\ sumDig(int)
+comment5.params=n
+comment5.target=int\ sumPrimeFact(int)
+comment6.params=n
+comment6.target=boolean\ isSmith(int)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Cryptos
+comment1.params=
+comment1.target=Cryptos()
+comment2.params=
+comment2.target=void\ getNum()
+comment3.params=
+comment3.target=void\ getLines()
+comment4.params=str
+comment4.target=boolean\ isSentence(java.lang.String)
+comment5.params=
+comment5.target=void\ encrypt()
+comment6.params=
+comment6.target=void\ display()
+comment7.params=str
+comment7.target=java.lang.String\ addTwo(java.lang.String)
+comment8.params=str
+comment8.target=java.lang.String\ revOrder(java.lang.String)
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SumCombinations
+comment1.params=
+comment1.target=SumCombinations()
+comment2.params=
+comment2.target=void\ getNumber()
+comment3.params=
+comment3.target=void\ getCombinations()
+comment4.params=n\ l
+comment4.target=void\ printCombination(int,\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

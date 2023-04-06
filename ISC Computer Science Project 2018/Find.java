@@ -1,0 +1,119 @@
+import java.util.*;
+class Find
+{
+    String arr[], search;
+    byte line, word, chr;
+    Find(){   
+        arr=new String[3]; 
+        search="";
+        line=word=chr=0;
+    }
+    private boolean is3Space(String s)
+    {
+        int c=0;
+        for(int i=0;i<s.length();i++)
+        {
+            if(s.charAt(i)==' ')
+             c++;
+        }
+        if(c==3)
+           return true;
+        return false;
+    }
+    public void accept()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the sentences:");
+        for(int i=0;i<3;i++)
+        {
+            arr[i]=sc.nextLine();
+            arr[i]=eatExcessSpaces(arr[i]);
+            arr[i]+=" ";
+            if(!is3Space(arr[i]))
+            {
+                System.out.println("3 words only \n Invalid input..");
+                System.exit(0);
+            }
+        }
+        System.out.println("Enter the search word:");
+        search=sc.next();
+    }
+    private String eatExcessSpaces(String str)
+    {
+        String ns="";
+        str=str.trim();
+        for(int i= 0; i<str.length();i++)
+        {
+            if(str.charAt(i)!=' ')
+               ns=ns+str.charAt(i);
+            else  
+               {
+                   char c;
+                   do{
+                       c=str.charAt(++i);
+                    }while(c==' ');
+                    --i;
+                    ns+=" ";
+                }
+        }
+        return ns;
+    }
+    public void findIt()
+    {
+        boolean flag=false;
+        String w="";
+        char c, c2=search.charAt(0);
+        for(int i=0;i<3;i++)
+        {
+            word=0;
+            for(int j=0;j<arr[i].length();j++)
+            {
+                c=arr[i].charAt(j);
+                w=w+c;
+                if(c==' ')
+                {
+                    word++;
+                    w=w.trim();
+                    if (isPresent(w))
+                    {
+                        line =(byte) (i+1);
+                        flag=true;
+                    }
+                    w="";
+                }
+                if(flag)
+                 break;
+            }
+            if(flag)
+             break;
+        }
+        if (flag)
+          System.out.println(search+" found at line "+line+" word "+word+" charcter "+chr);
+        else
+          System.out.println("Search not found....");
+    }
+     boolean isPresent(String s)
+    {
+        char c2=search.charAt(0), c;
+        String w="";
+        for(int k=0;k<s.length()-search.length()+1;k++)
+        {
+            c=s.charAt(k);
+            if(c==c2)
+            {
+                chr=(byte)(k+1);
+                w=s.substring(k,k+search.length());
+                break;
+            }
+        }
+        if(w.equals(search))
+          return true;
+        return false;
+    }
+    public static void main(String args[])
+    {
+        Find ob=new Find();
+        ob.accept();
+        ob.findIt();
+    }
+}

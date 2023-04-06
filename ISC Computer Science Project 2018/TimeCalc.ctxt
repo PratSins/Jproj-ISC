@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TimeCalc
+comment1.params=
+comment1.target=TimeCalc()
+comment2.params=
+comment2.target=void\ getinput()
+comment3.params=h\ m\ s
+comment3.target=boolean\ isComb(short,\ short,\ short)
+comment4.params=
+comment4.target=void\ calcTime()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

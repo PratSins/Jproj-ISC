@@ -1,0 +1,18 @@
+import java.util.*;
+class ReplacedVowels
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String str, p="";
+        System.out.println("Enter a Sentence(IN loerecase):");
+        str=sc.nextLine();
+        str=str.toLowerCase();
+        str=str.replace('a','*');
+        str=str.replace('e','*');
+        str=str.replace('i','*');
+        str=str.replace('o','*');
+        str=str.replace('u','*');
+        System.out.println("New String   = "+str);
+    }
+}

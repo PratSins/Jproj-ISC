@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=NewWord
+comment1.params=
+comment1.target=NewWord()
+comment2.params=
+comment2.target=void\ accept()
+comment3.params=w
+comment3.target=boolean\ isWord(java.lang.String)
+comment4.params=
+comment4.target=void\ displayNew()
+comment5.params=s
+comment5.target=java.lang.String\ getNext(java.lang.String)
+comment6.params=n1\ n2
+comment6.target=int\ sumChar(int,\ int)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

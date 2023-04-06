@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pallindrome
+comment1.params=
+comment1.target=Pallindrome()
+comment2.params=
+comment2.target=void\ accept()
+comment3.params=
+comment3.target=void\ display()
+comment4.params=s
+comment4.target=boolean\ isPallin(java.lang.String)
+comment5.params=s
+comment5.target=java.lang.String\ removePuncs(java.lang.String)
+comment6.params=ch
+comment6.target=boolean\ isPunc(char)
+comment7.params=s
+comment7.target=java.lang.String\ eatExcessSpaces(java.lang.String)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

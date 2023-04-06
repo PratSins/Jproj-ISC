@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FrequencyPattern
+comment1.params=
+comment1.target=FrequencyPattern()
+comment2.params=
+comment2.target=void\ accept()
+comment3.params=
+comment3.target=void\ getFreq()
+numComments=4

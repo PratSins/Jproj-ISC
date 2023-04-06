@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TriangleOfPascal
+comment0.text=\r\n\ This\ program\ generates\ Pascal's\ Triangle\ of\ a\ given\ size.\r\n\ @author\ Pratyush\ Singh,\ Google's\ Future\ CEO\r\n\ @version\ 1.1\ [\ \ \ 1\ -\ 04\ -\ 2018\ \ ,\ \ 2\ -\ 04\ -\ 2018\ \ \ ,\ \ Indian\ Standard\ Time\ ]\r\n
+comment1.params=rows
+comment1.target=TriangleOfPascal(int)
+comment2.params=n
+comment2.target=int\ factorial(int)
+comment3.params=n\ r
+comment3.target=int\ nCr(int,\ int)
+comment4.params=n
+comment4.target=int\ intLen(int)
+comment5.params=
+comment5.target=void\ decideAlignment()
+numComments=6

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Nodew
+comment1.params=
+comment1.target=Nodew()
+comment2.params=x
+comment2.target=Nodew(int)
+comment3.params=n
+comment3.target=Nodew(Nodew)
+comment4.params=x
+comment4.target=void\ setInfo(int)
+comment5.params=n
+comment5.target=void\ setNext(Nodew)
+comment6.params=
+comment6.target=void\ incrementVisits()
+comment7.params=
+comment7.target=int\ getInfo()
+comment8.params=
+comment8.target=Nodew\ getNext()
+comment9.params=
+comment9.target=int\ getVisits()
+numComments=10

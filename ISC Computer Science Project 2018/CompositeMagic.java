@@ -1,0 +1,72 @@
+import java.util.*;
+class CompositeMagic
+{
+    int m, n;
+    CompositeMagic()
+    {    n=m=0;  }
+    public void accept()
+    {
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter the lower and upper limit:");
+        m=sc.nextInt();
+        n=sc.nextInt();
+        if(m>n)
+         {
+             int t=m;
+             m=n;
+             n=t;
+         }   
+    }
+    private boolean isComposite(int a)
+    {
+        int c=0;
+        for(int i=2;i<=a/2;i++)
+        {
+            if(a%i==0)
+              { c++; break;     }
+        }
+        if(c>0)
+          return true;
+        else
+          return false;
+    }
+    private boolean isMagic(int a)
+    {
+        int s=a, d;
+        while(s>9)
+        {
+            a=s;
+            s=0;
+            while(a>0)
+            {
+                d=a%10;
+                s+=d;
+                a/=10;
+            }
+        }
+        if(s==1)
+         return true;
+        else
+         return false;
+    }
+    public void display()
+    {
+        int c=0;
+        System.out.println("The composite magic numbers are:");
+        for(int i=m;i<=n;i++)
+        {
+            if(isComposite(i) && isMagic(i))
+            {
+               System.out.println(i);
+               c++;
+            }
+        }
+        System.out.println("Frequency of Composite magic numbers are:"+c);
+    }
+    public static void main(String args[])
+    {
+        CompositeMagic obj=new CompositeMagic();
+        obj.accept();
+        obj.display();
+    }
+}

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Days
+comment1.params=n
+comment1.target=Days(int)
+comment2.params=
+comment2.target=void\ displayData()
+comment3.params=m
+comment3.target=int\ returnDays(int)
+comment4.params=s
+comment4.target=void\ getDays(java.lang.String)
+comment5.params=srgs
+comment5.target=void\ main(java.lang.String[])
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CirPrime
+comment1.params=
+comment1.target=CirPrime()
+comment2.params=
+comment2.target=void\ execute()
+comment3.params=m
+comment3.target=boolean\ isPrime(int)
+comment4.params=n
+comment4.target=int\ countDigs(int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

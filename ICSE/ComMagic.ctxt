@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ComMagic()
+comment1.params=
+comment1.target=void\ readData()
+comment2.params=k
+comment2.target=boolean\ isComposite(int)
+comment3.params=k
+comment3.target=int\ sumDig(int)
+comment4.params=k
+comment4.target=boolean\ isMagic(int)
+comment5.params=
+comment5.target=void\ getData()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

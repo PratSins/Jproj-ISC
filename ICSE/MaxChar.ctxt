@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MaxChar
+comment1.params=
+comment1.target=MaxChar()
+comment2.params=
+comment2.target=void\ getSentence()
+comment3.params=
+comment3.target=void\ getMaxChar()
+numComments=4

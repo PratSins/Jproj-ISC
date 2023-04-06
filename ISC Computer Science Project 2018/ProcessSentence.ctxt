@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ProcessSentence
+comment1.params=
+comment1.target=ProcessSentence()
+comment2.params=
+comment2.target=void\ take()
+comment3.params=
+comment3.target=java.lang.String\ formWord()
+comment4.params=
+comment4.target=int\ countVowels()
+comment5.params=ch
+comment5.target=boolean\ isVowel(char)
+comment6.params=word
+comment6.target=int\ sumASCII(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getMaxASCII()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

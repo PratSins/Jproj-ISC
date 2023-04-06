@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Anagrams
+comment1.params=
+comment1.target=Anagrams()
+comment2.params=
+comment2.target=void\ accept()
+comment3.params=str\ sI\ eI
+comment3.target=void\ getAnagrams(java.lang.String,\ int,\ int)
+comment4.params=s\ x\ y
+comment4.target=java.lang.String\ swapChars(java.lang.String,\ int,\ int)
+comment5.params=
+comment5.target=void\ display()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

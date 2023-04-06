@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ReversePara
+comment1.params=
+comment1.target=ReversePara()
+comment10.params=args
+comment10.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ inputNum()
+comment3.params=
+comment3.target=void\ inputLines()
+comment4.params=
+comment4.target=void\ reverseLines()
+comment5.params=
+comment5.target=void\ display()
+comment6.params=str
+comment6.target=java.lang.String\ revOrder(java.lang.String)
+comment7.params=str
+comment7.target=java.lang.String\ removePunc(java.lang.String)
+comment8.params=ch
+comment8.target=boolean\ isPunc(char)
+comment9.params=str
+comment9.target=java.lang.String\ eatExcessSpaces(java.lang.String)
+numComments=11

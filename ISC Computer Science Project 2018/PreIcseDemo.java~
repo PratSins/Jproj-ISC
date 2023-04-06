@@ -1,0 +1,18 @@
+import java.util.*;
+public class PreIcseDemo
+{
+    int freq[];
+    String str;
+    PreIcseDemo()
+    {
+        str="";
+        freq=new int[26];
+    }
+    void accept()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a string:");
+        str=sc.nextLine().trim();
+    }
+    
+}

@@ -1,0 +1,52 @@
+import java.util.*;
+class BubbleSortNames
+{
+    Scanner sc=new Scanner(System.in);
+    String t;
+    String name[]=new String[10];
+    int i,j;
+    BubbleSortNames()
+    {
+        i=j=0;
+        t="";
+    }
+    void clrscr()
+    {
+        System.out.print('\u000c');
+    }
+    void inputData()
+    {
+        System.out.println("Enter any 10 Strings(IN UPPERCASE):");        
+        for(i=0;i<10;i++)
+            name[i]=sc.nextLine().toUpperCase();
+    }
+    void sort()
+    {
+        for(i=0;i<9;i++)
+        {
+            for(j=0;j<9-i;j++)
+            {
+                if(name[j].compareTo(name[j+1])>0)
+                {
+                    t=name[j];
+                    name[j]=name[j+1];
+                    name[j+1]=t;
+                }
+            }
+        }
+    }
+    void display()
+    {
+        System.out.println("The sorted elements of the array:");
+        for(i=0;i<5;i++)
+           System.out.println(name[i]);        
+    }
+    public static void main(String args[])
+    {
+        BubbleSortNames obj=new BubbleSortNames();
+        obj.clrscr();
+        obj.inputData();
+        obj.sort();
+        obj.display();
+    }
+}
